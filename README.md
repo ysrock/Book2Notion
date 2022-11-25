@@ -1,3 +1,16 @@
+# 原版测试未通过，在原版的基础上改动以下部分：
+# 在popup.js 中 修改以下变量为自己的notion变量即可。其中pageID、databaseID一样都是用pageid。
+var nToken = "";
+var pageID = "";
+var databaseID = "";
+
+# notion模板使用的是 http://yudayu.cc/219/ 采用 IOS 快捷指令扫描实体书带入 Notion 实践 – 智愚
+# 现在实现了：既可以用ios设备快捷指令扫描实体书到notion，也可以通过本插件在豆瓣单本导入notion。
+
+
+
+
+
 # Book2Notion：将豆瓣图书信息同步到Notion的Chrome插件
 ## 背景
 
